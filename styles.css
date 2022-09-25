@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&family=Roboto&display=swap");
+
+body {
+  background-color: #dbdad6;
+  color: #060606;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+}
+
+.pic {
+  width: 250px;
+  /* display: flex;
+  text-align: center;
+  justify-content: center; */
+  border-radius: 50%;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.8);
+}
+
+.about p {
+  margin: 0;
+  font-style: italic;
+  text-decoration: none;
+  /* text-transform: uppercase; */
+}
+
+/* .social {
+  background-color: #9fa3a6;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 15px 40px;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-radius: 15px;
+} */
+
+/* .social h2 {
+  text-align: center;
+} */
+
+/* .s {
+  text-align: auto;
+  text-transform: uppercase;
+  font-style: bold;
+} */
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  text-transform: none;
+}
+
+a:hover {
+  color: #cba09e;
+}
+
+.card {
+  margin-bottom: 20px;
+  padding: 1px 30px;
+  border-radius: 18px;
+}
+
+.bg-1 {
+  background-color: #5f646a;
+}
+
+.bg-2 {
+  background-color: #737373;
+}
+
+.about {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 700px) {
+  .about {
+    display: block;
+    text-align: center;
+  }
+}
+
+.list {
+  padding-left: 20px;
+}
+
+.list li {
+  margin-bottom: 5px;
+  color: #b5c3c6;
+}
+
+.l-2 {
+  padding-left: 20px;
+  color: #a5abca;
+}
+
+.l-2 li {
+  margin-bottom: 5px;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #060606;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  padding: 15px 0 10px;
+  font-family: inherit;
+  outline: none;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.row > .form-group {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+  margin-right: 0;
+}
+
+.info-text {
+  margin-left: 40px;
+}
+
+.info-text h3 {
+  margin-bottom: 10px;
+}
+
+.btn {
+  border: none;
+  color: #fff;
+  background: #111;
+  font-family: inherit;
+  padding: 15px 20px;
+  cursor: pointer;
+  border-radius: 15px;
+}
